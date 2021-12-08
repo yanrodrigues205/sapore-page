@@ -97,7 +97,7 @@ color: #FFFFFF;
     font-size:calc(3.0% + 1.05vw);
     left: 41.47%;
     font-family: 'Hind', sans-serif;
-    top: 310%;
+    top: calc(11.2vw);
     text-transform: uppercase;
     color: #FFFFFF ;
 }
@@ -106,7 +106,7 @@ color: #FFFFFF;
     width: calc(5vw);
     height: calc(0.8vw);
     left: calc(53vw);
-    top: 330%;
+    top: calc(11.8vw);
     background-color: #BE1E2D;
 }
 .serviços{
@@ -116,7 +116,7 @@ color: #FFFFFF;
     font-family: 'Lobster', cursive;
     letter-spacing: -0.08em;
     left:40.3%;
-    top:calc(200vw);
+    top:calc(20.5vw);
 }
 
 /*=====================================(PRATOS E LEGENDAS)=====================================*/
