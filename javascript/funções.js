@@ -1,5 +1,5 @@
 
-alert("Desde já sou muito grato por estar fazendo o texte! Não tenho muito conhecimento na área de JavaScript, essa foi minha primeira utilização até então. Começei utilizando bootstrap mas fiquei inseguro porque também nunca tinha tido contato com a ferramenta, então refiz a página sem ele, mas estou sempre diposto a adquirir conhecimento, peço desculpa se não foi atendido as perspectivas. Agradeço pela oportunidade e tenham um bom dia!       :D                                            Yan Pablo Rodrigues.")
+alert("Seja bem-vindo! está é uma pagina de teste, nada oficial , O servidor está aberto, não tente alterar nenhum código fonte pois eu tenho seus dados salvos. Desde já agradeço.     :D                                            Yan Pablo Rodrigues.")
 
 function opendiv(){
     if(document.getElementById('open').style.display == 'none'){
