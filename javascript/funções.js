@@ -1,5 +1,5 @@
 
-alert("Seja bem-vindo! está é uma pagina de teste, nada oficial , O servidor está aberto, não tente alterar nenhum código fonte pois eu tenho seus dados salvos. Desde já agradeço.     :D                                            Yan Pablo Rodrigues.")
+alert("Seja bem-vindo! está é uma pagina de teste, nada oficial , O servidor está aberto, não tente alterar nenhum código fonte pois eu tenho seus dados salvos. Desde já agradeço.     :D                                                     Yan Pablo Rodrigues.")
 
 function opendiv(){
     if(document.getElementById('open').style.display == 'none'){
