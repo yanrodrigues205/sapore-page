@@ -1,0 +1,648 @@
+
+/*======================================FONTES E URLS=======================================*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Montserrat&family=Pacifico&display=swap');
+@font-face{
+    font-family: 'fonte1';
+    src: url("../fontes/Hind/Hind-Regular.ttf");
+    }
+@font-face {
+    font-family: 'fonte2';
+    src: url("../font/Explora-Regular.ttf");
+    }
+@font-face {
+    font-family: 'fonte3';
+    src: url("../fontes/Montserrat/Montserrat-MediumItalic.ttf");
+}
+@font-face {
+    font-family: 'fonte4';
+    src: url("../fontes/Open_Sans/static/OpenSans/OpenSans-Italic.ttf");
+}
+@font-face {
+    font-family: 'fonte5';
+    src: url("../fontes/Source_Sans_Pro/SourceSansPro-Light.ttf");
+}
+@font-face {
+    font-family: 'fonte6';
+    src: url("../fontes/Montserrat/Montserrat-Thin.ttf");
+}
+
+/*==============================================(MENU INICIAL)=========================================*/
+
+body{
+    background-color: #E5E5E5;
+    
+}
+.imgmenu_fundo{
+    left: 0%;
+    top: 0%;
+    height: auto;
+    position: absolute;
+    width: 100%;  
+}
+.logo{
+    position: relative;
+    left: 43.5%;
+    Width :13%;
+    Height :4%;
+    top: 1.89vw;
+}
+.topo{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.icon_menu{
+    position: absolute;
+    left: 3%;
+    top: 2.3vw;
+    width: 10%;
+    height: 58%;
+}
+.traducao{
+    position: absolute;
+    left: 92%;
+    top: 1.77vw;
+    width: 5%;
+    height: 77%;
+}
+
+.ul_covid{
+position: absolute;
+left: 77%;
+top: 2.51vw;
+font-family: normal;
+font-style: normal;
+font-size:calc(1.2vw);
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.negrito{
+    font-size:calc(1vw);
+    font-family: 'fonte3';
+}
+.amarelo{
+    color: yellow;
+}
+.localizando{
+    position: absolute;
+    width: 27%;
+    height: 10%;
+    font-size:calc(3.0% + 1.05vw);
+    left: 41.47%;
+    font-family: 'Hind', sans-serif;
+    top: 310%;
+    text-transform: uppercase;
+    color: #FFFFFF ;
+}
+.red-block{
+    position: absolute;
+    width: calc(5vw);
+    height: calc(0.8vw);
+    left: calc(53vw);
+    top: 330%;
+    background-color: #BE1E2D;
+}
+.serviços{
+    position: absolute;
+    font-size:calc(7vw);
+    color:#F8F7F2;
+    font-family: 'Lobster', cursive;
+    letter-spacing: -0.08em;
+    left:40.3%;
+    top:550%;
+}
+
+/*=====================================(PRATOS E LEGENDAS)=====================================*/
+
+.legenda{
+position: absolute;
+font-family: 'fonte3';
+font-style: normal;
+font-weight: normal;
+font-size: calc(1vw);
+line-height: 140.6%;
+letter-spacing: -0.01em;
+color: #2D2926;
+top:calc(37vw);
+left: 8%;
+}
+
+.prato1{
+position: absolute;
+width: 17.9vw;
+height: 12.3vw;
+top: calc(53vw);
+left: 8%;
+}
+.prato2{
+position: absolute;
+width: 17.9vw;
+height: 12.3vw;
+left: 29.97%;
+top: calc(53vw);
+
+
+}
+
+.prato3{
+position: absolute;
+width: 17.9vw;
+height: 12.3vw;
+left: 51.87%;
+top: calc(53vw);
+
+}
+.prato4{
+position: absolute;
+width: 17.9vw;
+height: 12.3vw;
+left: 73.7%;
+top: calc(53vw);
+}
+
+div#label1{
+    position: absolute;
+    top:calc(66.1vw);
+    color: #2D2926;
+    font-size:calc(1.1vw);
+    font-style: italic;
+    left: 11.9%;
+}
+
+div#label2{
+    position: absolute;
+    top:calc(66.1vw);
+    color: #2D2926;
+    font-size:calc(1.1vw);
+    font-style: italic;
+    left: 32.9%;
+}
+
+div#label3{
+    position: absolute;
+    top:calc(66.1vw);
+    color: #2D2926;
+    font-size:calc(1.1vw);
+    font-style: italic;
+    left: 55.8%;
+}
+div#label4{
+    position: absolute;
+    top:calc(66.1vw);
+    color: #2D2926;
+    font-size:calc(1.1vw);
+    font-style: italic;
+    left: 78.9%;
+}
+
+.barra{
+    position: absolute;
+    top: calc(73vw);
+    width: calc(90.73vw);
+    height: calc(0.17vw);
+    left:calc(4.1vw) ;   
+}
+
+.seta-esquerda{
+    position: absolute;
+    top: calc(65.4vw);
+    width: calc(0.5vw);
+    height: calc(1vw);
+    left: calc(4.1vw);
+}
+.seta-direita{
+    position: absolute;
+    top: calc(65.4vw);
+    width: calc(0.5vw);
+    height: calc(1vw);
+    left: calc(93.8vw);
+}
+/*===============================================================================*/
+
+ 
+/*==========================================OPEN=================================*/
+
+.abrir{
+display: none;
+
+}
+.barra3{
+position: absolute;
+top: calc(73vw);
+left:calc(28.5vw);
+width: calc(19.8vw) ;
+height: calc(0.17vw);
+}
+
+.titulo-open{
+position: absolute;
+top:calc(77.1vw);
+color: #2D2926;
+font-size:calc(1.7vw);
+font-style: italic;
+left: 8%;
+}
+
+.texto-open{
+position: absolute;
+top:calc(79.1vw);
+color: #2D2926;
+font-size:calc(1.4vw);
+font-style: italic;
+left: 8%;
+}
+.barra2{
+position: absolute;
+top: calc(94vw);
+width: calc(90.73vw);
+height: calc(0.17vw);
+left:calc(4.1vw) ; 
+}
+
+/*=====================================MEIO(INFORMAÇÕES SAPORE)====================================*/
+
+img#circulo1{
+    position: absolute;
+    top:calc(97.3vw);
+    height: calc(3.5vw);
+    width: calc(3.5vw);
+    left: calc(10vw);
+}
+
+img#circulo2{
+    position: absolute;
+    top:calc(107.3vw);
+    height: calc(3.5vw);
+    width: calc(3.5vw);
+    left: calc(10vw);
+}
+img#circulo3{
+    position: absolute;
+    top:calc(117.3vw);
+    height: calc(3.5vw);
+    width: calc(3.5vw);
+    left: calc(10vw);
+}
+
+img#seta1{
+    position: absolute;
+    top:calc(99vw);
+    height: calc(0.35vw);
+    width: calc(0.7vw);
+    left: calc(11.4vw);
+}
+img#seta2{
+    position: absolute;
+    top:calc(109vw);
+    height: calc(0.35vw);
+    width: calc(0.7vw);
+    left: calc(11.4vw);
+}
+
+img#seta3{
+    position: absolute;
+    top:calc(119vw);
+    height: calc(0.35vw);
+    width: calc(0.7vw);
+    left: calc(11.4vw);
+   
+}
+
+
+img#barramenor1{
+position:absolute;
+top: calc(104vw);
+width: calc(77.5vw);
+height: calc(0.14vw);
+left: calc(9.5vw);
+}
+
+img#barramenor2{
+position:absolute;
+top: calc(114vw);
+width: calc(77.5vw);
+height: calc(0.14vw);
+left: calc(9.5vw);
+}
+
+img#barramenor3{
+    position:absolute;
+    top: calc(124vw);
+    width: calc(77.5vw);
+    height: calc(0.14vw);
+    left: calc(9.5vw);
+}
+
+div#lanchonete h3{
+    position: absolute;
+    top: calc(96vw);
+    left: calc(15vw);
+    position: absolute;
+    font-style: 'fonte3';
+    font-weight: normal;
+    font-size:calc(2.0vw);
+    align-items: center;
+    color: #2D2926;
+}
+
+div#homeoffice h3{
+    position: absolute;
+    top: calc(106vw);
+    left: calc(15vw);
+    position: absolute;
+    font-style: 'fonte3';
+    font-weight: normal;
+    font-size:calc(2.0vw);
+    align-items: center;
+    color: #2D2926;
+}
+
+div#facilites h3{
+    position: absolute;
+    top: calc(116vw);
+    left: calc(15vw);
+    position: absolute;
+    font-style: 'fonte3';
+    font-weight: normal;
+    font-size:calc(2.0vw);
+    align-items: center;
+    color: #2D2926;
+}
+/*===========================================FACILITES==================================*/
+.abrir2{
+    display: none
+}
+img#garfo{
+    position: absolute;
+width: calc(24.34vw);
+height: calc(34.32vw);
+left:calc(15vw);
+top: calc(124.25vw)
+}
+.block-yellow{
+ position: absolute;
+width: calc(5.1vw);
+height: calc(4.95vw);
+left: calc(34.2vw);
+top: calc(158.53vw);
+background-color: yellow;
+}
+
+.block-gray{
+    position: absolute;
+    width: calc(39.8vw);
+    height: calc(58.22vw);
+    left: calc(39.3vw);
+    top: calc(124.25vw);
+    background: #2D2926;  
+}
+
+h5{
+    position: absolute;
+    padding: calc(1vw);
+    margin: calc(3vw);
+    color: #F8F7F2;
+    font-style: normal;
+    font-family: 'fonte6';
+    font-size: calc(1.15vw);
+    letter-spacing: 0.04em;
+    top:calc(3vw)
+}
+
+.solicite{
+    position: absolute;
+    padding: calc(1vw);
+    margin: calc(3vw);
+    color: #F8F7F2;
+    font-style: normal;
+    font-family: 'fonte3';
+    font-size: calc(1.3vw);
+    letter-spacing: 0.04em;
+    top: calc(48vw);
+}
+
+.seta-diagonal{
+    position: absolute;
+    top: calc(52.38vw);
+    height: calc(1.03vw);
+    width: calc(1.03vw);
+    left: calc(2vw);
+
+}
+/*===================(+ INFORMAÇÕES SOBRE A SAPORE E DIVULGAÇÃO DE CONTEUDOS EXTRAS)====================*/ 
+.block-red{
+    position: absolute;
+    width: 100%;
+    height: calc(72.20vw);
+    left: 0px;
+    top: calc(192vw);
+    background-color: #BE1E2D;
+}
+
+
+
+.block-creditos{
+    position: absolute;
+    width: 100%;
+    height: calc(22.45vw);
+    left: 0;
+    top:calc(42.8vw);
+    background-color: #2D2926;
+}
+
+.contato a{
+position: absolute;
+left:calc(10vw);
+font-family: 'fonte4';
+font-style: italic;
+font-weight: normal;
+font-size: calc(2.1vw);
+
+color: #F8F7F2;
+top: calc(9vw);
+}
+
+.servicos1 a{
+position: absolute;
+left:calc(39vw);
+font-family: 'fonte4';
+font-style: italic;
+font-weight: normal;
+font-size: calc(2.1vw);
+
+color: #F8F7F2;
+top: calc(9vw);
+}
+
+.institucional a{
+position: absolute;
+left:calc(68vw);
+font-family: 'fonte4';
+font-style: italic;
+font-weight: normal;
+font-size: calc(2.1vw);
+
+color: #F8F7F2;
+top: calc(9vw);
+}
+
+.sub1{
+    position: absolute;
+    left: calc(10vw);
+    font-family: 'fonte5';
+    font-style: normal;
+    font-weight: normal;
+    line-height: calc(2.2vw);
+    color: #F8F7F2;
+    font-size: calc(1.3vw);
+    top: calc(13.5vw);
+}
+
+.sub2{
+    position: absolute;
+    left: calc(39vw);
+    font-family: 'fonte5';
+    font-style: normal;
+    font-weight: normal;
+    line-height: calc(2.2vw);
+    color: #F8F7F2;
+    font-size: calc(1.3vw);
+    top: calc(13.5vw);
+}
+
+.sub3{
+    position: absolute;
+    left: calc(68vw);
+    font-family: 'fonte5';
+    font-style: normal;
+    font-weight: normal;
+    line-height: calc(2.2vw);
+    color: #F8F7F2;
+    font-size: calc(1.3vw);
+    top: calc(13.5vw);
+}
+
+/*==================================(CREDITOS E REDES SOCIAIS)===========================*/
+
+.barra-final{
+    position: absolute;
+    width: calc(79.8vw);
+    height: 0%;
+    left: calc(9vw);
+    top: calc(15.4vw);
+    border: 0.05vw solid #7B7B7B;
+}
+
+.lateral{
+    position: absolute;
+    width: calc(2.08vw);
+    height: calc(27.52vw);
+    left: 0;
+    top:calc(40.26vw);
+    border-radius: 0px;
+    background-color: #2D2926;
+}
+
+.sapore-logo{
+    position: absolute;
+    width: calc(13.3vw);
+    height: calc(5.2vw);
+    left:calc(9vw) ;
+    top: calc(6vw);
+}
+
+.numero{
+    position: absolute;
+    font-size: calc(2.1vw);
+    font-family: 'fonte5';
+    letter-spacing: 0.08em;
+    color: #F8F7F2;
+    font-style: normal;
+    font-weight: bold;
+    left: calc(69.92vw);
+    top: calc(7vw);
+}
+
+.whats{
+position: absolute;
+width: calc(2.4vw);
+height: calc(2.4vw);
+left: 66.8vw;
+top: calc(7.2vw);
+}
+
+.politica{
+position: absolute;
+left: calc(39vw);
+top: calc(7.55vw);
+font-family: 'fonte4';
+font-style: normal;
+font-weight: normal;
+font-size: calc(1.25vw);
+color: #F8F7F2;
+}
+
+.direitos{
+    position: absolute;
+left: calc(9vw);
+top: calc(17.55vw);
+font-family: 'fonte4';
+font-style: normal;
+font-weight: normal;
+font-size: calc(0.95vw);
+color: #F8F7F2;
+}
+.logo-ox{
+    position: absolute;
+    top: calc(17.85vw);
+    left: calc(44.6vw);
+    height: calc(0.9vw);
+    width: calc(5.1vw);  
+}
+
+.instagram{
+    position: absolute;
+    width: calc(1.6vw);
+    height: calc(1.6vw);
+    left: calc(87.4vw);
+    top: calc(18vw);
+}
+.facebook{
+    position: absolute;
+    width: calc(0.75vw);
+    height: calc(1.4vw);
+    left: calc(84.4vw);
+    top: calc(18.1vw);
+}
+.linkedin{
+    position: absolute;
+    width: calc(1.6vw);
+    height:calc(1.6vw);
+    left: calc(80.6vw);
+    top: calc(18vw);
+}
+
+.youtube{
+    position: absolute;
+    width: calc(1.93vw);
+    height: calc(1.2vw);
+    left: calc(76.3vw);
+    top: calc(18.4vw);
+}
+
+.faleconosco{
+    position: absolute;
+    width: calc(6vw);
+    height: calc(6vw);
+    left: calc(90.65vw);
+    top: calc(20.3vw);
+}
+
+/*=====================================================================================================*/
