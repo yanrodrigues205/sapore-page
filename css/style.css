@@ -116,7 +116,7 @@ color: #FFFFFF;
     font-family: 'Lobster', cursive;
     letter-spacing: -0.08em;
     left:40.3%;
-    top:550%;
+    top:calc(60vw);
 }
 
 /*=====================================(PRATOS E LEGENDAS)=====================================*/
